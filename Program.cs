@@ -23,6 +23,8 @@ namespace ArrayListDemo
             arraylist.Add(true);
             arraylist.Add(2.7f);
             arraylist.Add("T");
+            arraylist.Add("L");
+
             PrintList(arraylist);
 
             ////bool containItem = arraylist.Contains('T');
