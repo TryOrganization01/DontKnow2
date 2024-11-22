@@ -12,7 +12,7 @@ namespace ArrayListDemo
 
             static void Main(string[] args)
             {
-           
+    
             ArrayList arraylist = new ArrayList();
             Console.WriteLine("Initial Capacity:" + arraylist.Capacity);
             arraylist.Add('1');
@@ -23,7 +23,10 @@ namespace ArrayListDemo
             arraylist.Add(true);
             arraylist.Add(2.7f);
             arraylist.Add("T");
-            arraylist.Add("L");
+            for (int i = 0; i < 3; i++)
+            {
+                arraylist.Add("Sumi and Sanjai merge conflict try");
+            }
 
             PrintList(arraylist);
 
